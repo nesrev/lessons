@@ -1,0 +1,357 @@
+/***************
+Variation of Flat color
+****************/
+$turquoise-flat:(
+  "base": $turquoise-flat-base,
+  "lighten-5": lighten($turquoise-flat-base,45%),
+  "lighten-4": lighten($turquoise-flat-base,35%),
+  "lighten-3": lighten($turquoise-flat-base,25%),
+  "lighten-2": lighten($turquoise-flat-base,15%),
+  "lighten-1": lighten($turquoise-flat-base,5%),
+  "darken-1": darken($turquoise-flat-base,5%),
+  "darken-2": darken($turquoise-flat-base,15%),
+  "darken-3": darken($turquoise-flat-base,25%),
+  "darken-4": darken($turquoise-flat-base,35%)
+);
+
+$turquoise-deep-flat:(
+  "base": $turquoise-deep-flat-base,
+  "lighten-5": lighten($turquoise-deep-flat-base,45%),
+  "lighten-4": lighten($turquoise-deep-flat-base,35%),
+  "lighten-3": lighten($turquoise-deep-flat-base,25%),
+  "lighten-2": lighten($turquoise-deep-flat-base,15%),
+  "lighten-1": lighten($turquoise-deep-flat-base,5%),
+  "darken-1": darken($turquoise-deep-flat-base,5%),
+  "darken-2": darken($turquoise-deep-flat-base,15%),
+  "darken-3": darken($turquoise-deep-flat-base,25%),
+  "darken-4": darken($turquoise-deep-flat-base,35%)
+);
+
+$emerald-flat:(
+  "base": $emerald-flat-base,
+  "lighten-5": lighten($emerald-flat-base,45%),
+  "lighten-4": lighten($emerald-flat-base,35%),
+  "lighten-3": lighten($emerald-flat-base,25%),
+  "lighten-2": lighten($emerald-flat-base,15%),
+  "lighten-1": lighten($emerald-flat-base,5%),
+  "darken-1": darken($emerald-flat-base,5%),
+  "darken-2": darken($emerald-flat-base,15%),
+  "darken-3": darken($emerald-flat-base,25%),
+  "darken-4": darken($emerald-flat-base,35%)
+);
+
+$nephritis-flat:(
+  "base": $nephritis-flat-base,
+  "lighten-5": lighten($nephritis-flat-base,45%),
+  "lighten-4": lighten($nephritis-flat-base,35%),
+  "lighten-3": lighten($nephritis-flat-base,25%),
+  "lighten-2": lighten($nephritis-flat-base,15%),
+  "lighten-1": lighten($nephritis-flat-base,5%),
+  "darken-1": darken($nephritis-flat-base,5%),
+  "darken-2": darken($nephritis-flat-base,15%),
+  "darken-3": darken($nephritis-flat-base,25%),
+  "darken-4": darken($nephritis-flat-base,35%)
+);
+
+$blue-flat:(
+  "base": $blue-flat-base,
+  "lighten-5": lighten($blue-flat-base,45%),
+  "lighten-4": lighten($blue-flat-base,35%),
+  "lighten-3": lighten($blue-flat-base,25%),
+  "lighten-2": lighten($blue-flat-base,15%),
+  "lighten-1": lighten($blue-flat-base,5%),
+  "darken-1": darken($blue-flat-base,5%),
+  "darken-2": darken($blue-flat-base,15%),
+  "darken-3": darken($blue-flat-base,25%),
+  "darken-4": darken($blue-flat-base,35%)
+);
+
+$blue-deep-flat:(
+  "base": $blue-deep-flat-base,
+  "lighten-5": lighten($blue-deep-flat-base,45%),
+  "lighten-4": lighten($blue-deep-flat-base,35%),
+  "lighten-3": lighten($blue-deep-flat-base,25%),
+  "lighten-2": lighten($blue-deep-flat-base,15%),
+  "lighten-1": lighten($blue-deep-flat-base,5%),
+  "darken-1": darken($blue-deep-flat-base,5%),
+  "darken-2": darken($blue-deep-flat-base,15%),
+  "darken-3": darken($blue-deep-flat-base,25%),
+  "darken-4": darken($blue-deep-flat-base,35%)
+);
+
+$purple-flat:(
+  "base": $purple-flat-base,
+  "lighten-5": lighten($purple-flat-base,45%),
+  "lighten-4": lighten($purple-flat-base,35%),
+  "lighten-3": lighten($purple-flat-base,25%),
+  "lighten-2": lighten($purple-flat-base,15%),
+  "lighten-1": lighten($purple-flat-base,5%),
+  "darken-1": darken($purple-flat-base,5%),
+  "darken-2": darken($purple-flat-base,15%),
+  "darken-3": darken($purple-flat-base,25%),
+  "darken-4": darken($purple-flat-base,35%)
+);
+
+$purple-deep-flat:(
+  "base": $purple-deep-flat-base,
+  "lighten-5": lighten($purple-deep-flat-base,45%),
+  "lighten-4": lighten($purple-deep-flat-base,35%),
+  "lighten-3": lighten($purple-deep-flat-base,25%),
+  "lighten-2": lighten($purple-deep-flat-base,15%),
+  "lighten-1": lighten($purple-deep-flat-base,5%),
+  "darken-1": darken($purple-deep-flat-base,5%),
+  "darken-2": darken($purple-deep-flat-base,15%),
+  "darken-3": darken($purple-deep-flat-base,25%),
+  "darken-4": darken($purple-deep-flat-base,35%)
+);
+
+$indigo-flat:(
+  "base": $indigo-flat-base,
+  "lighten-5": lighten($indigo-flat-base,45%),
+  "lighten-4": lighten($indigo-flat-base,35%),
+  "lighten-3": lighten($indigo-flat-base,25%),
+  "lighten-2": lighten($indigo-flat-base,15%),
+  "lighten-1": lighten($indigo-flat-base,5%),
+  "darken-1": darken($indigo-flat-base,5%),
+  "darken-2": darken($indigo-flat-base,15%),
+  "darken-3": darken($indigo-flat-base,25%),
+  "darken-4": darken($indigo-flat-base,35%)
+);
+
+$indigo-deep-flat:(
+  "base": $indigo-deep-flat-base,
+  "lighten-5": lighten($indigo-deep-flat-base,45%),
+  "lighten-4": lighten($indigo-deep-flat-base,35%),
+  "lighten-3": lighten($indigo-deep-flat-base,25%),
+  "lighten-2": lighten($indigo-deep-flat-base,15%),
+  "lighten-1": lighten($indigo-deep-flat-base,5%),
+  "darken-1": darken($indigo-deep-flat-base,5%),
+  "darken-2": darken($indigo-deep-flat-base,15%),
+  "darken-3": darken($indigo-deep-flat-base,25%),
+  "darken-4": darken($indigo-deep-flat-base,35%)
+);
+
+$yellow-flat:(
+  "base": $yellow-flat-base,
+  "lighten-5": lighten($yellow-flat-base,45%),
+  "lighten-4": lighten($yellow-flat-base,35%),
+  "lighten-3": lighten($yellow-flat-base,25%),
+  "lighten-2": lighten($yellow-flat-base,15%),
+  "lighten-1": lighten($yellow-flat-base,5%),
+  "darken-1": darken($yellow-flat-base,5%),
+  "darken-2": darken($yellow-flat-base,15%),
+  "darken-3": darken($yellow-flat-base,25%),
+  "darken-4": darken($yellow-flat-base,35%)
+);
+
+$yellow-deep-flat:(
+  "base": $yellow-deep-flat-base,
+  "lighten-5": lighten($yellow-deep-flat-base,45%),
+  "lighten-4": lighten($yellow-deep-flat-base,35%),
+  "lighten-3": lighten($yellow-deep-flat-base,25%),
+  "lighten-2": lighten($yellow-deep-flat-base,15%),
+  "lighten-1": lighten($yellow-deep-flat-base,5%),
+  "darken-1": darken($yellow-deep-flat-base,5%),
+  "darken-2": darken($yellow-deep-flat-base,15%),
+  "darken-3": darken($yellow-deep-flat-base,25%),
+  "darken-4": darken($yellow-deep-flat-base,35%)
+);
+
+$orange-flat:(
+  "base": $orange-flat-base,
+  "lighten-5": lighten($orange-flat-base,45%),
+  "lighten-4": lighten($orange-flat-base,35%),
+  "lighten-3": lighten($orange-flat-base,25%),
+  "lighten-2": lighten($orange-flat-base,15%),
+  "lighten-1": lighten($orange-flat-base,5%),
+  "darken-1": darken($orange-flat-base,5%),
+  "darken-2": darken($orange-flat-base,15%),
+  "darken-3": darken($orange-flat-base,25%),
+  "darken-4": darken($orange-flat-base,35%)
+);
+
+$orange-deep-flat:(
+  "base": $orange-deep-flat-base,
+  "lighten-5": lighten($orange-deep-flat-base,45%),
+  "lighten-4": lighten($orange-deep-flat-base,35%),
+  "lighten-3": lighten($orange-deep-flat-base,25%),
+  "lighten-2": lighten($orange-deep-flat-base,15%),
+  "lighten-1": lighten($orange-deep-flat-base,5%),
+  "darken-1": darken($orange-deep-flat-base,5%),
+  "darken-2": darken($orange-deep-flat-base,15%),
+  "darken-3": darken($orange-deep-flat-base,25%),
+  "darken-4": darken($orange-deep-flat-base,35%)
+);
+
+$red-flat:(
+  "base": $red-flat-base,
+  "lighten-5": lighten($red-flat-base,45%),
+  "lighten-4": lighten($red-flat-base,35%),
+  "lighten-3": lighten($red-flat-base,25%),
+  "lighten-2": lighten($red-flat-base,15%),
+  "lighten-1": lighten($red-flat-base,5%),
+  "darken-1": darken($red-flat-base,5%),
+  "darken-2": darken($red-flat-base,15%),
+  "darken-3": darken($red-flat-base,25%),
+  "darken-4": darken($red-flat-base,35%)
+);
+
+$red-deep-flat:(
+  "base": $red-deep-flat-base,
+  "lighten-5": lighten($red-deep-flat-base,45%),
+  "lighten-4": lighten($red-deep-flat-base,35%),
+  "lighten-3": lighten($red-deep-flat-base,25%),
+  "lighten-2": lighten($red-deep-flat-base,15%),
+  "lighten-1": lighten($red-deep-flat-base,5%),
+  "darken-1": darken($red-deep-flat-base,5%),
+  "darken-2": darken($red-deep-flat-base,15%),
+  "darken-3": darken($red-deep-flat-base,25%),
+  "darken-4": darken($red-deep-flat-base,35%)
+);
+
+$grey-light-flat:(
+  "base": $grey-light-flat-base,
+  "lighten-5": lighten($grey-light-flat-base,45%),
+  "lighten-4": lighten($grey-light-flat-base,35%),
+  "lighten-3": lighten($grey-light-flat-base,25%),
+  "lighten-2": lighten($grey-light-flat-base,15%),
+  "lighten-1": lighten($grey-light-flat-base,5%),
+  "darken-1": darken($grey-light-flat-base,5%),
+  "darken-2": darken($grey-light-flat-base,15%),
+  "darken-3": darken($grey-light-flat-base,25%),
+  "darken-4": darken($grey-light-flat-base,35%)
+);
+
+$grey-flat:(
+  "base": $grey-flat-base,
+  "lighten-5": lighten($grey-flat-base,45%),
+  "lighten-4": lighten($grey-flat-base,35%),
+  "lighten-3": lighten($grey-flat-base,25%),
+  "lighten-2": lighten($grey-flat-base,15%),
+  "lighten-1": lighten($grey-flat-base,5%),
+  "darken-1": darken($grey-flat-base,5%),
+  "darken-2": darken($grey-flat-base,15%),
+  "darken-3": darken($grey-flat-base,25%),
+  "darken-4": darken($grey-flat-base,35%)
+);
+
+$grey-deep-flat:(
+  "base": $grey-deep-flat-base,
+  "lighten-5": lighten($grey-deep-flat-base,45%),
+  "lighten-4": lighten($grey-deep-flat-base,35%),
+  "lighten-3": lighten($grey-deep-flat-base,25%),
+  "lighten-2": lighten($grey-deep-flat-base,15%),
+  "lighten-1": lighten($grey-deep-flat-base,5%),
+  "darken-1": darken($grey-deep-flat-base,5%),
+  "darken-2": darken($grey-deep-flat-base,15%),
+  "darken-3": darken($grey-deep-flat-base,25%),
+  "darken-4": darken($grey-deep-flat-base,35%)
+);
+
+$grey-dark-flat:(
+  "base": $grey-dark-flat-base,
+  "lighten-5": lighten($grey-dark-flat-base,45%),
+  "lighten-4": lighten($grey-dark-flat-base,35%),
+  "lighten-3": lighten($grey-dark-flat-base,25%),
+  "lighten-2": lighten($grey-dark-flat-base,15%),
+  "lighten-1": lighten($grey-dark-flat-base,5%),
+  "darken-1": darken($grey-dark-flat-base,5%),
+  "darken-2": darken($grey-dark-flat-base,15%),
+  "darken-3": darken($grey-dark-flat-base,25%),
+  "darken-4": darken($grey-dark-flat-base,35%)
+);
+
+/**********************
+Variation Material color
+*************************/
+
+$green-material:(
+  "base": $green-material-base,
+  "lighten-5": lighten($green-material-base,45%),
+  "lighten-4": lighten($green-material-base,35%),
+  "lighten-3": lighten($green-material-base,25%),
+  "lighten-2": lighten($green-material-base,15%),
+  "lighten-1": lighten($green-material-base,5%),
+  "darken-1": darken($green-material-base,5%),
+  "darken-2": darken($green-material-base,15%),
+  "darken-3": darken($green-material-base,25%),
+  "darken-4": darken($green-material-base,35%)
+);
+
+$green-light-material:(
+  "base": $green-light-material-base,
+  "lighten-5": lighten($green-light-material-base,45%),
+  "lighten-4": lighten($green-light-material-base,35%),
+  "lighten-3": lighten($green-light-material-base,25%),
+  "lighten-2": lighten($green-light-material-base,15%),
+  "lighten-1": lighten($green-light-material-base,5%),
+  "darken-1": darken($green-light-material-base,5%),
+  "darken-2": darken($green-light-material-base,15%),
+  "darken-3": darken($green-light-material-base,25%),
+  "darken-4": darken($green-light-material-base,35%)
+);
+
+$yellow-material:(
+  "base": $yellow-material-base,
+  "lighten-5": lighten($yellow-material-base,45%),
+  "lighten-4": lighten($yellow-material-base,35%),
+  "lighten-3": lighten($yellow-material-base,25%),
+  "lighten-2": lighten($yellow-material-base,15%),
+  "lighten-1": lighten($yellow-material-base,5%),
+  "darken-1": darken($yellow-material-base,5%),
+  "darken-2": darken($yellow-material-base,15%),
+  "darken-3": darken($yellow-material-base,25%),
+  "darken-4": darken($yellow-material-base,35%)
+);
+
+$lime-material:(
+  "base": $lime-material-base,
+  "lighten-5": lighten($lime-material-base,45%),
+  "lighten-4": lighten($lime-material-base,35%),
+  "lighten-3": lighten($lime-material-base,25%),
+  "lighten-2": lighten($lime-material-base,15%),
+  "lighten-1": lighten($lime-material-base,5%),
+  "darken-1": darken($lime-material-base,5%),
+  "darken-2": darken($lime-material-base,15%),
+  "darken-3": darken($lime-material-base,25%),
+  "darken-4": darken($lime-material-base,35%)
+);
+
+$amber-material:(
+  "base": $amber-material-base,
+  "lighten-5": lighten($amber-material-base,45%),
+  "lighten-4": lighten($amber-material-base,35%),
+  "lighten-3": lighten($amber-material-base,25%),
+  "lighten-2": lighten($amber-material-base,15%),
+  "lighten-1": lighten($amber-material-base,5%),
+  "darken-1": darken($amber-material-base,5%),
+  "darken-2": darken($amber-material-base,15%),
+  "darken-3": darken($amber-material-base,25%),
+  "darken-4": darken($amber-material-base,35%)
+);
+
+$orange-material:(
+  "base": $orange-material-base,
+  "lighten-5": lighten($orange-material-base,45%),
+  "lighten-4": lighten($orange-material-base,35%),
+  "lighten-3": lighten($orange-material-base,25%),
+  "lighten-2": lighten($orange-material-base,15%),
+  "lighten-1": lighten($orange-material-base,5%),
+  "darken-1": darken($orange-material-base,5%),
+  "darken-2": darken($orange-material-base,15%),
+  "darken-3": darken($orange-material-base,25%),
+  "darken-4": darken($orange-material-base,35%)
+);
+
+$orange-deep-material:(
+  "base": $orange-deep-material-base,
+  "lighten-5": lighten($orange-deep-material-base,45%),
+  "lighten-4": lighten($orange-deep-material-base,35%),
+  "lighten-3": lighten($orange-deep-material-base,25%),
+  "lighten-2": lighten($orange-deep-material-base,15%),
+  "lighten-1": lighten($orange-deep-material-base,5%),
+  "darken-1": darken($orange-deep-material-base,5%),
+  "darken-2": darken($orange-deep-material-base,15%),
+  "darken-3": darken($orange-deep-material-base,25%),
+  "darken-4": darken($orange-deep-material-base,35%)
+);
